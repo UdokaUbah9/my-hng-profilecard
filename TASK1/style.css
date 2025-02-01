@@ -1,0 +1,95 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rebeccapurple;
+  padding: 40px;
+  height: 100vh;
+}
+
+img {
+  width: 200px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
+
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  border: 1px solid grey;
+}
+
+.profile-name {
+  text-transform: uppercase;
+}
+
+/* img {
+  width: 100px;
+} */
+.social {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+.time {
+  margin-right: 10px;
+}
+
+a:hover {
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 3px;
+  padding: 8px 13px;
+  transition: all 300ms ease;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+@media only screen and (max-width: 680px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .profile-name {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .social {
+    display: block;
+    text-align: left;
+    padding: 0px;
+  }
+}
+/* small {
+  display: block;
+  margin-bottom: 15px;
+} */
+
+/* .image-container {
+  width: 80px;
+  height: 96px;
+  background-color: black;
+} */
+
+main {
+  text-align: left;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <img
+          src="./images/passport.jpg"
+          alt="profile picture"
+          data-testid="profilePicture"
+        />
+      </div>
+      <main>
+        <h2 class="profile-name" data-testid="fullName">Udoka Ubah</h2>
+        <p data-testid="emailAddress">
+          <small><strong>Email:</strong> udokaubah9@gmail.com</small>
+        </p>
+        <p dat-testid="currentLocation">
+          <small><strong>Location:</strong> Nigeria, Lagos</small>
+        </p>
+        <p data-testid="jobTitile">
+          <small><strong>Occupation:</strong> Web developer</small>
+        </p>
+        <p data-testid="shortBio">
+          <small
+            ><strong>About Me:</strong> My name is Udoka Ubah Isaac, i Live in
+            Lagos, Nigeria. I am highly motivated and detail-driven tech
+            enthusiast with a passion for innovation and problem solving</small
+          >
+        </p>
+
+        <p>
+          <strong class="time">Time: </strong>
+          <span data-testid="currentTimeUTC">00:00UTC</span>
+        </p>
+        <p class="social" data-testid="socialLink">
+          <strong>Social Links:</strong>
+        </p>
+        <ul class="social" data-testid="socialLinks">
+          <li>
+            <small><a href="https://x.com/udokaubah9">Twitter</a></small>
+          </li>
+          <li>
+            <small><a href="https://wa.me/+2347055387500">Whatsapp</a></small>
+          </li>
+        </ul>
+      </main>
+    </div>
+  </body>
+</html>
